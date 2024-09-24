@@ -35,7 +35,7 @@ function move_flying_windows(){
 function start_moving_windows() {
     setInterval(() => {
         move_flying_windows()
-    }, 200);
+    }, 10);
 window.addEventListener(`keydown`,(event)=>{
    if (event.code==='Space') {
     event.preventDefault();
