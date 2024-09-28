@@ -40,7 +40,7 @@ window.addEventListener(`keydown`,(event)=>{
    if (event.code==='Space') {
     event.preventDefault();
    } 
-   for (let index = 0; index < 5; index++) {
+   for (let index = 0; index < 8; index++) {
    openflyingwindows()
    }
 })
