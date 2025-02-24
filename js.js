@@ -1,4 +1,5 @@
 alert("click space to cuntuino")
+console.log ("hi")
 let flying_windows=[]
 function openflyingwindows(){
 
